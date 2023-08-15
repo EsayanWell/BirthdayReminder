@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E7D705A2A8681A1004CBAD3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D70592A8681A1004CBAD3 /* Model.swift */; };
 		6E8E51F42A82752500D5D244 /* CustomTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E51F32A82752500D5D244 /* CustomTextFiled.swift */; };
 		6E8E51F62A837FB900D5D244 /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E51F52A837FB900D5D244 /* UIViews.swift */; };
 		6EDFB3142A681A010088BFE6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDFB3132A681A010088BFE6 /* ProfileViewController.swift */; };
@@ -21,13 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E7D70592A8681A1004CBAD3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6E8E51F32A82752500D5D244 /* CustomTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFiled.swift; sourceTree = "<group>"; };
 		6E8E51F52A837FB900D5D244 /* UIViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
 		6EDFB3132A681A010088BFE6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		6EE2BC0F2A6579D90032FDD8 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		6EE2BC112A669BDA0032FDD8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		6EEF00EF2A55BF2600820FF1 /* 5. UIPicker Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5. UIPicker Homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EEF00EF2A55BF2600820FF1 /* BirthdayReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEF00F22A55BF2600820FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EEF00F42A55BF2600820FF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6EEF00F92A55BF2600820FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,14 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E7D705B2A8681A9004CBAD3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				6E7D70592A8681A1004CBAD3 /* Model.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		6EDFB30D2A67D2B10088BFE6 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +58,7 @@
 		6EEF00E62A55BF2600820FF1 = {
 			isa = PBXGroup;
 			children = (
-				6EEF00F12A55BF2600820FF1 /* 5. UIPicker Homework */,
+				6EEF00F12A55BF2600820FF1 /* BirthdayReminder */,
 				6EEF00F02A55BF2600820FF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,15 +66,14 @@
 		6EEF00F02A55BF2600820FF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EEF00EF2A55BF2600820FF1 /* 5. UIPicker Homework.app */,
+				6EEF00EF2A55BF2600820FF1 /* BirthdayReminder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EEF00F12A55BF2600820FF1 /* 5. UIPicker Homework */ = {
+		6EEF00F12A55BF2600820FF1 /* BirthdayReminder */ = {
 			isa = PBXGroup;
 			children = (
-				6E7D705B2A8681A9004CBAD3 /* Model */,
 				6EEF00F22A55BF2600820FF1 /* AppDelegate.swift */,
 				6EEF00F42A55BF2600820FF1 /* SceneDelegate.swift */,
 				6E8E51F32A82752500D5D244 /* CustomTextFiled.swift */,
@@ -95,15 +84,15 @@
 				6EEF00FD2A55BF2800820FF1 /* LaunchScreen.storyboard */,
 				6EEF01002A55BF2800820FF1 /* Info.plist */,
 			);
-			path = "5. UIPicker Homework";
+			path = BirthdayReminder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EEF00EE2A55BF2600820FF1 /* 5. UIPicker Homework */ = {
+		6EEF00EE2A55BF2600820FF1 /* BirthdayReminder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EEF01032A55BF2800820FF1 /* Build configuration list for PBXNativeTarget "5. UIPicker Homework" */;
+			buildConfigurationList = 6EEF01032A55BF2800820FF1 /* Build configuration list for PBXNativeTarget "BirthdayReminder" */;
 			buildPhases = (
 				6EEF00EB2A55BF2600820FF1 /* Sources */,
 				6EEF00EC2A55BF2600820FF1 /* Frameworks */,
@@ -113,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = "5. UIPicker Homework";
+			name = BirthdayReminder;
 			productName = "5. UIPicker Homework";
-			productReference = 6EEF00EF2A55BF2600820FF1 /* 5. UIPicker Homework.app */;
+			productReference = 6EEF00EF2A55BF2600820FF1 /* BirthdayReminder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6EEF00EA2A55BF2600820FF1 /* Build configuration list for PBXProject "5. UIPicker Homework" */;
+			buildConfigurationList = 6EEF00EA2A55BF2600820FF1 /* Build configuration list for PBXProject "BirthdayReminder" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EEF00EE2A55BF2600820FF1 /* 5. UIPicker Homework */,
+				6EEF00EE2A55BF2600820FF1 /* BirthdayReminder */,
 			);
 		};
 /* End PBXProject section */
@@ -176,7 +165,6 @@
 				6EDFB3142A681A010088BFE6 /* ProfileViewController.swift in Sources */,
 				6E8E51F42A82752500D5D244 /* CustomTextFiled.swift in Sources */,
 				6EE2BC102A6579D90032FDD8 /* RegistrationViewController.swift in Sources */,
-				6E7D705A2A8681A1004CBAD3 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +313,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3324CJVR4C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "5. UIPicker Homework/Info.plist";
+				INFOPLIST_FILE = BirthdayReminder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -353,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3324CJVR4C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "5. UIPicker Homework/Info.plist";
+				INFOPLIST_FILE = BirthdayReminder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -375,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EEF00EA2A55BF2600820FF1 /* Build configuration list for PBXProject "5. UIPicker Homework" */ = {
+		6EEF00EA2A55BF2600820FF1 /* Build configuration list for PBXProject "BirthdayReminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EEF01012A55BF2800820FF1 /* Debug */,
@@ -384,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EEF01032A55BF2800820FF1 /* Build configuration list for PBXNativeTarget "5. UIPicker Homework" */ = {
+		6EEF01032A55BF2800820FF1 /* Build configuration list for PBXNativeTarget "BirthdayReminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EEF01042A55BF2800820FF1 /* Debug */,

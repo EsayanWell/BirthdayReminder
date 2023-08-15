@@ -6,11 +6,3 @@
 //
 
 import Foundation
-
-struct Person {
-    let name: String
-    let birthday: Date
-    let age: Int
-    let sex: sex
-    let instagram: String
-}

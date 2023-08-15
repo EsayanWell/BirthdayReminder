@@ -58,7 +58,7 @@ class ProfileViewController: UIViewController {
             photoImageView.widthAnchor.constraint(equalToConstant: 160),
             photoImageView.heightAnchor.constraint(equalToConstant: 160)
         ])
-        photoImageView.image = UIImage(named: "person.crop.circle")
+        photoImageView.image = UIImage(named:"person.circle")
         photoImageView.contentMode = .scaleAspectFill
         
         //настройка кнопки добавления фото
