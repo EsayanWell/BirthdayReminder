@@ -114,7 +114,6 @@ class RegistrationViewController: UIViewController {
             passwordPack.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50)
         ])
         
-        
         //создание switch
         //добавить на view
         view.addSubview(faceIdSwitch)
@@ -168,4 +167,3 @@ class RegistrationViewController: UIViewController {
         present(secondVC, animated: true)
     }
 }
-

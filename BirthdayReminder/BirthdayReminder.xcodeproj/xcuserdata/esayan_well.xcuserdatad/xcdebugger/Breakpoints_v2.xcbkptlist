@@ -36,5 +36,68 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A106247-DBD9-4558-A788-D53FE8F16F1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BirthdayReminder/CustomStackView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CustomStackView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0A106247-DBD9-4558-A788-D53FE8F16F1C - 6a8d9f064779506a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BirthdayReminder.CustomStackView.scrollView.getter : __C.UIScrollView"
+                  moduleName = "BirthdayReminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/esayan_well/Desktop/GitHub/BirthdayReminder/BirthdayReminder/BirthdayReminder/CustomStackView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "0A106247-DBD9-4558-A788-D53FE8F16F1C - b8193f65261f105c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BirthdayReminder.CustomStackView.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BirthdayReminder.CustomStackView"
+                  moduleName = "BirthdayReminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/esayan_well/Desktop/GitHub/BirthdayReminder/BirthdayReminder/BirthdayReminder/CustomStackView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "0A106247-DBD9-4558-A788-D53FE8F16F1C - b875de7cd94bf479"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BirthdayReminder.CustomStackView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BirthdayReminder.CustomStackView&gt;"
+                  moduleName = "BirthdayReminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/esayan_well/Desktop/GitHub/BirthdayReminder/BirthdayReminder/BirthdayReminder/CustomStackView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -58,7 +58,7 @@ class ProfileViewController: UIViewController {
             photoImageView.widthAnchor.constraint(equalToConstant: 160),
             photoImageView.heightAnchor.constraint(equalToConstant: 160)
         ])
-        photoImageView.image = UIImage(named:"person.circle")
+        photoImageView.image = UIImage(named:"person.crop.circle.fill")
         photoImageView.contentMode = .scaleAspectFill
         
         //настройка кнопки добавления фото
@@ -184,7 +184,6 @@ class ProfileViewController: UIViewController {
         view.addGestureRecognizer(tapGesture)
         //появляется picker вместо клавиатуры
         datePack.textField.inputView = datePicker
-        //datePack.textField.inputView = datePicker
         
         //MARK: - Настройка "Date Picker" для текстового поля "Возраст"
         agePack.textField.inputView = agePicker
@@ -277,5 +276,3 @@ extension ProfileViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         present(alertForInst,animated: true, completion: nil)
     }
 }
-
-
