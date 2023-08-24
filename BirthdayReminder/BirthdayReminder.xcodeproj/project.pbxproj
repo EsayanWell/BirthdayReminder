@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E8E51F42A82752500D5D244 /* CustomTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E51F32A82752500D5D244 /* CustomTextFiled.swift */; };
 		6E8E51F62A837FB900D5D244 /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E51F52A837FB900D5D244 /* UIViews.swift */; };
+		6EBD3F172A939BCD00861EFE /* CustomPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBD3F162A939BCD00861EFE /* CustomPersonView.swift */; };
 		6EDFB3142A681A010088BFE6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDFB3132A681A010088BFE6 /* ProfileViewController.swift */; };
 		6EE2BC102A6579D90032FDD8 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2BC0F2A6579D90032FDD8 /* RegistrationViewController.swift */; };
 		6EE2BC122A669BDB0032FDD8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2BC112A669BDA0032FDD8 /* ListViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		6E8E51F32A82752500D5D244 /* CustomTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFiled.swift; sourceTree = "<group>"; };
 		6E8E51F52A837FB900D5D244 /* UIViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
+		6EBD3F162A939BCD00861EFE /* CustomPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPersonView.swift; sourceTree = "<group>"; };
 		6EDFB3132A681A010088BFE6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		6EE2BC0F2A6579D90032FDD8 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		6EE2BC112A669BDA0032FDD8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EBD3F182A93AE9700861EFE /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E51F52A837FB900D5D244 /* UIViews.swift */,
+				6E8E51F32A82752500D5D244 /* CustomTextFiled.swift */,
+				6EBD3F162A939BCD00861EFE /* CustomPersonView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		6EDFB30D2A67D2B10088BFE6 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +88,7 @@
 			children = (
 				6EEF00F22A55BF2600820FF1 /* AppDelegate.swift */,
 				6EEF00F42A55BF2600820FF1 /* SceneDelegate.swift */,
-				6E8E51F32A82752500D5D244 /* CustomTextFiled.swift */,
-				6E8E51F52A837FB900D5D244 /* UIViews.swift */,
+				6EBD3F182A93AE9700861EFE /* CustomViews */,
 				6EDFB30D2A67D2B10088BFE6 /* View Controllers */,
 				6EEF00F82A55BF2600820FF1 /* Main.storyboard */,
 				6EEF00FB2A55BF2800820FF1 /* Assets.xcassets */,
@@ -164,6 +175,7 @@
 				6EEF00F52A55BF2600820FF1 /* SceneDelegate.swift in Sources */,
 				6EDFB3142A681A010088BFE6 /* ProfileViewController.swift in Sources */,
 				6E8E51F42A82752500D5D244 /* CustomTextFiled.swift in Sources */,
+				6EBD3F172A939BCD00861EFE /* CustomPersonView.swift in Sources */,
 				6EE2BC102A6579D90032FDD8 /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

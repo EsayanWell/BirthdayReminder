@@ -58,7 +58,7 @@ class ProfileViewController: UIViewController {
             photoImageView.widthAnchor.constraint(equalToConstant: 160),
             photoImageView.heightAnchor.constraint(equalToConstant: 160)
         ])
-        photoImageView.image = UIImage(named:"person.circle")
+        photoImageView.image = UIImage(named:"person.crop.circle.fill")
         photoImageView.contentMode = .scaleAspectFill
         
         //настройка кнопки добавления фото
@@ -77,8 +77,6 @@ class ProfileViewController: UIViewController {
             addPhotoButton.centerYAnchor.constraint(equalTo: photoImageView.bottomAnchor, constant: 20)
         ])
         
-        //создаем экземпляр класса
-        let namePack = CustomTextFiled()
         //имя для label
         namePack.label.text = "Имя"
         //placeholder для textField
@@ -94,8 +92,6 @@ class ProfileViewController: UIViewController {
             namePack.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)
         ])
         
-        //создаем экземпляр класса
-        let datePack = CustomTextFiled()
         //имя для label
         datePack.label.text = "Дата"
         //placeholder для textField
@@ -111,8 +107,6 @@ class ProfileViewController: UIViewController {
             datePack.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)
         ])
         
-        //создаем экземпляр класса
-        let agePack = CustomTextFiled()
         //имя для label
         agePack.label.text = "Возраст"
         //placeholder для textField
@@ -128,8 +122,6 @@ class ProfileViewController: UIViewController {
             agePack.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)
         ])
         
-        //создаем экземпляр класса
-        let sexPack = CustomTextFiled()
         //имя для label
         sexPack.label.text = "Пол"
         //placeholder для textField
@@ -145,8 +137,6 @@ class ProfileViewController: UIViewController {
             sexPack.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30)
         ])
         
-        //создаем экземпляр класса
-        let instPack = CustomTextFiled()
         //имя для label
         instPack.label.text = "Instagram"
         //placeholder для textField
@@ -184,7 +174,6 @@ class ProfileViewController: UIViewController {
         view.addGestureRecognizer(tapGesture)
         //появляется picker вместо клавиатуры
         datePack.textField.inputView = datePicker
-        //datePack.textField.inputView = datePicker
         
         //MARK: - Настройка "Date Picker" для текстового поля "Возраст"
         agePack.textField.inputView = agePicker
@@ -262,8 +251,8 @@ extension ProfileViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         let alertForInst = UIAlertController(title: "Введите username Instagram",message: "", preferredStyle: .alert)
         //создаем кнопку "OK"
         let okAction = UIAlertAction(title: "OK", style: .default) { (action) in
-            if self.agePack.textField.text == ""{
-                self.agePack.textField.text = alertForInst.textFields?.first?.text
+            if self.instPack.textField.text == ""{
+                self.instPack.textField.text = alertForInst.textFields?.first?.text
             }
         }
         //создаем кнопку "Cancel"
@@ -277,5 +266,3 @@ extension ProfileViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         present(alertForInst,animated: true, completion: nil)
     }
 }
-
-
